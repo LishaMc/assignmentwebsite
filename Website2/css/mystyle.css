@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*NavBar*/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin: 2% 3%;
+    font-family: 'BebasKai', Arial;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.item a{
+    color: black;
+}
+.item a:hover{
+    color: #035b73ff;
+    font-size: 1.5vw;
+
+}
+
+/*NavBar End*/
+
+/* Home Page */
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 70%;
+    row-gap: 4vh;
+}
+.banner{
+    background-color: #035b73ff;
+    grid-column: span 2;
+}
+.banner h1{
+    color:white;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    font-family: 'BebasKai', Arial;
+    padding: 9% 0 8% 0;
+    text-align:  center;
+    
+}
+.Photo img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 0 0 5%;
+
+}
+.Blurb{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    padding: 12% 0 0 10%;
+}
+.Blurb h2{
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 0 0 1% 0;
+}
+button a{
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'BebasKai', Arial;
+    font-weight: 500;
+    color: #faae56;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.CTA{
+    background-color: white;
+    padding: 1.5%;
+    border: 2px solid #faae56; 
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 0 0 0 5%;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: #faae56;
+    color: white;
+}
+button a:hover{
+    color:white;
+}
+
+
+/* Home Page End*/
+/* Footer */
+footer h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: .5vw;
+    bottom: 0%;
+}
+footer img{
+    height: 10%;
+    width: 5%;
+    bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.8vw;
+    bottom: 0%;
+    transition-duration: 0.3s;
+}
+footer a:hover{
+    color: #035b73ff;
+}
+.stafflog{
+    background-color: white;
+    padding: .5%;
+    border: 2px solid #035b73ff; 
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 0 0 0 2%;
+    transition-duration: 0.5s;
+    position: absolute;
+}
+.stafflog a{
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'BebasKai', Arial;
+    font-weight: 500;
+    color: #035b73ff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.stafflog:hover {
+    background-color:  #035b73ff;
+    color: white;
+}
+.stafflog a:hover{
+    color:white;
+}
+/* Footer End*/
+/* Menu Page*/
+.Photo button{
+    margin: 3% 0 2% 20%;
+    font-size: 2.5vw;
+    color: white;
+    background-color: #035b73ff;
+    border: none;
+    transition-duration: 0.3s;
+
+}
+.Photo button:hover{
+    background-color: white;
+    color: #035b73ff;
+}
+.Photo button a{
+    font-size: 2.5vw;
+    color: white;
+    transition-duration: 0.3s;
+}
+.Photo button a:hover{
+    color: #035b73ff;
+}
+.menuphoto{
+    margin: 5% 2% 0 0;
+}
+/* Contact Form */
+.form{
+    padding: 0 0 0 10%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+}
